@@ -78,7 +78,6 @@ body {
   font: 18px Montserrat, sans-serif;
   color: #fff; /* IE8 proofing */
   background-color: transparent;
-  border-bottom: 2px solid transparent;
   border: none;
 }
 .masthead-nav > button > a:hover,
@@ -173,8 +172,8 @@ body {
 
 .dropdown-content-c a {
     float: none;
-    font: 18px Montserrat, sans-serif;
-    font-weight: 300;
+    font: 12px Helvetica, sans-serif;
+    font-weight: lighter;
     color: white;
     padding: 12px 16px;
     text-decoration: none;
