@@ -62,22 +62,27 @@ body {
   margin-bottom: 10px;
 }
 
-.masthead-nav > li {
+.normal-c
+.dropbtn-c
+{
   display: inline-block;
 }
-.masthead-nav > li + li {
+.normal-c {
   margin-left: 20px;
 }
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 18px;
+.normal-c,
+.dropbtn-c
+{
+  padding: 14px 16px;
   font-weight: 400;
+  font: 18px Montserrat, sans-serif;
   color: #fff; /* IE8 proofing */
+  background-color: transparent;
   border-bottom: 2px solid transparent;
+  border: none;
 }
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
+.masthead-nav > button > a:hover,
+.masthead-nav > button > a:focus {
   background-color: transparent;
   border-bottom-color: #fff;
 }
@@ -128,7 +133,7 @@ body {
 }
 
 .christina {
-  font-size: 80px;
+  font: 80px Montserrat, sans-serif;
   font-weight: bold;
   color: #bababa;
   text-align: right;
@@ -136,8 +141,51 @@ body {
 }
 
 .cheng {
-  font-size: 80px;
+  font: 80px Montserrat, sans-serif;
   font-weight: bold;
   color: black;
   text-align: left;
+}
+
+/**dropdown menu on nav bar**/
+.dropdown-c {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown-c .dropbtn-c {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+}
+
+.dropdown-content-c {
+    display: none;
+    position: absolute;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content-c a {
+    float: none;
+    font: 18px Montserrat, sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content-c a:hover {
+    font-weight: 500;
+}
+
+.dropdown-c:hover .dropdown-content-c {
+    display: block;
 }
