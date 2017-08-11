@@ -167,7 +167,7 @@ body {
     background-color: transparent;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    z-index: 500;
 }
 
 .dropdown-content-c a {
@@ -187,4 +187,16 @@ body {
 
 .dropdown-c:hover .dropdown-content-c {
     display: block;
+}
+
+.footer {
+  position: fixed;
+  display: none;
+  bottom: 0;
+  right: 35px;
+}
+
+.footer img {
+  margin-bottom: 50px;
+  padding-left: 15px;
 }
