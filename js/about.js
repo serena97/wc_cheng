@@ -21,4 +21,15 @@ $(".normal-c #about").click(function(){
       $(".footer").css("display", "block")
 });
 
+//toggle illustration dropdown contents upon clicking illustration, good use for smartphones
+$('.dropbtn-c').click(function(){
+  var x = $('.dropdown-content-c');
+  if (x.css('display') === 'none') {
+      x.css('display','block')
+  } else {
+      x.css('display','none')
+  }
+});
+
+
 });

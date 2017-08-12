@@ -172,7 +172,7 @@ body {
 }
 
 .dropdown-content-c a:hover {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .dropdown-c:hover .dropdown-content-c {
@@ -189,6 +189,15 @@ body {
 .footer img {
   margin-bottom: 50px;
   padding-left: 15px;
+}
+
+
+/**for smartphones and tablets **/
+@media (max-width: 767px) {
+  .footer img {
+    margin-bottom: 10px;
+  }
+
 }
 
 .footer img:hover {
